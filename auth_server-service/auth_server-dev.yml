@@ -1,6 +1,6 @@
 spring:
  datasource:
-  url: jdbc:mysql://localhost:3306/oAuthDB?createDatabaseIfNotExist=true
+  url: jdbc:mysql://localhost:3306/authDB?createDatabaseIfNotExist=true
   user: root
   password: hasitha
   driver-class-name: com.mysql.jdbc.Driver
