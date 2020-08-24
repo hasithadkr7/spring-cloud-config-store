@@ -4,7 +4,7 @@ spring:
     username: auth_user
     password: Auth#pwd#123
     driver-class-name: com.mysql.jdbc.Driver
-
+    initialization-mode: always
   jpa:
     hibernate:
       naming:
@@ -18,4 +18,4 @@ logging:
   level:
     org:
       hibernate:
-        type: trace
+        type: trace 
